@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+}
+
+.login-container, .forgot-password-container, .register-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* Header styling */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Label and input styling */
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Links styling */
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Profile logo styling */
+.profile-logo {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
